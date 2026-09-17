@@ -101,7 +101,7 @@ body {
 }
 
 #temp-min-icon {
-    color: dodgerblue;
+    color: rgb(0, 90, 255);
 }
 
 #humidity-icon {
@@ -110,4 +110,9 @@ body {
 
 #wind-icon {
     color: blueviolet;
+}
+
+#alert {
+    margin-top: 10px;
+    text-align: center;
 }
