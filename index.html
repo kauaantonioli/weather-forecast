@@ -33,53 +33,54 @@
                     />
                     <div id="temp-info">
                         <p id="temp">24,1 <sup>°C</sup></p>
-                        <p id="condition">Nublado</p>
+                        <p id="description">Nublado</p>
+                    </div>
+                </div>
+
+                <div id="other-info">
+                    <div class="info">
+                        <i
+                            class="fa-solid fa-temperature-high"
+                            id="temp-max-icon"
+                        ></i>
+                        <div>
+                            <h3>Temp. máx</h3>
+                            <p id="temp-max">28<sup>°C</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <i
+                            class="fa-solid fa-temperature-low"
+                            id="temp-min-icon"
+                        ></i>
+                        <div>
+                            <h3>Temp. mín</h3>
+                            <p id="temp-min">18<sup>°C</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-droplet" id="humidity-icon"></i>
+                        <div>
+                            <h3>Humidade</h3>
+                            <p id="humidity">18<sup>°C</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-wind" id="wind-icon"></i>
+                        <div>
+                            <h3>Vento</h3>
+                            <p id="wind">20 km/h</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div id="other-info">
-                <div class="info">
-                    <i
-                        class="fa-solid fa-temperature-high"
-                        id="temp-max-icon"
-                    ></i>
-                    <div>
-                        <h3>Temp. máx</h3>
-                        <p id="temp-max">28<sup>°C</sup></p>
-                    </div>
-                </div>
-
-                <div class="info">
-                    <i
-                        class="fa-solid fa-temperature-low"
-                        id="temp-min-icon"
-                    ></i>
-                    <div>
-                        <h3>Temp. mín</h3>
-                        <p id="temp-min">18<sup>°C</sup></p>
-                    </div>
-                </div>
-
-                <div class="info">
-                    <i class="fa-solid fa-droplet" id="humidity-icon"></i>
-                    <div>
-                        <h3>Humidade</h3>
-                        <p id="humidity">18<sup>°C</sup></p>
-                    </div>
-                </div>
-
-                <div class="info">
-                    <i class="fa-solid fa-wind" id="wind-icon"></i>
-                    <div>
-                        <h3>Vento</h3>
-                        <p id="wind">20 km/h</p>
-                    </div>
-                </div>
-            </div>
             <div id="alert"></div>
         </div>
 
-        <script type="module" src="js/script.js"></script>
+        <script type="module" src="js/index.js"></script>
     </body>
 </html>
